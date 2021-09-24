@@ -7,16 +7,17 @@ function myMonitorFunction(arr){
     var newMonitorsList = [...arr];
 
 // Only change code below this line
-var monitorsList = [];
-for (var i = 0;  i = newMonitorsList.length - 1; i+=1){
-    monitorsList = newMonitorsList + i;
+var newMonitorsList = [];
+monitorsListArray.forEach(function(element, counter) {
+    console.log(counter+" "+element);
+});
+
 };
 
-console.log(monitorsList()) ;
 
 // Only change code above this line
-}
-console.log(myMonitorFunction()); // Change this line
+
+console.log(myMonitorFunction(monitorsListArray)); // Change this line
 
 module.exports = myMonitorFunction;
 
