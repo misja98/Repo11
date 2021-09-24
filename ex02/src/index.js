@@ -23,5 +23,5 @@ function myArrayFunction(arr){
     return averageDayTemp;
 }
 
-console.log(myArrayFunction()); // Change this line
+console.log(myArrayFunction(temps)); // Change this line
 module.exports = myArrayFunction;
