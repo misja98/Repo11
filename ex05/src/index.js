@@ -12,3 +12,4 @@ return arr;
 console.log(myNestedFunction()); // Change this line
 
 module.exports = myNestedFunction;
+
